@@ -1,0 +1,25 @@
+header {
+    background-color: #ACB5BD;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #DDE2E5;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+article {
+    background-color: aqua;
+    padding: 20px;
+}
+
+footer {
+    background-color: #F03D3E;
+    padding: 20px;
+    text-align: center;
+}
