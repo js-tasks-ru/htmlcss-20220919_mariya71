@@ -5,6 +5,7 @@
     border-radius: 8px;
     height: 48px;
     min-width: 182px;
+    padding: 0 15px 0 14px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -21,29 +22,29 @@
     cursor: not-allowed;
 }
 
-.button-primary {
+.button_primary {
     background: var(--blue-1);
 }
 
-.button-primary:hover {
+.button_primary:hover {
     background: var(--blue-2);
 }
 
-.button-secondary {
+.button_secondary {
     background: var(--purple-1);
 }
 
-.button-secondary:hover {
+.button_secondary:hover {
     background: var(--purple-2);
 }
 
-.button-alternate {
+.button_alternate {
     background: var(--white);
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
 }
 
-.button-alternate:hover {
+.button_alternate:hover {
     border-color: var(--black);
 }
 
