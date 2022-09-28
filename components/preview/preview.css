@@ -1,0 +1,16 @@
+.preview {
+    background: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.preview__card {
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    width: 350px;
+    height: 367px;
+    display: inline-block;
+}
