@@ -1,16 +1,21 @@
 .preview {
     background: var(--background);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-.preview__card {
-    background: var(--white);
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    width: 350px;
-    height: 367px;
+.preview__wrapper {
+    padding-top: 68px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.preview__item {
     display: inline-block;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.preview__item_lr-padding {
+    padding: 0 30px;
 }
