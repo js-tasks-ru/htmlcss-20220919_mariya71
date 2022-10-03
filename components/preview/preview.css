@@ -3,19 +3,12 @@
 }
 
 .preview__wrapper {
-    padding-top: 68px;
+    padding: 68px 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    gap: 30px;
 }
 
 .preview__item {
-    display: inline-block;
-    box-sizing: border-box;
-    padding-bottom: 30px;
-}
 
-.preview__item_lr-padding {
-    padding: 0 30px;
 }

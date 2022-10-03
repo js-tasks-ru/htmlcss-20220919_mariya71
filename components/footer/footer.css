@@ -12,12 +12,13 @@
     font-size: 38px;
     line-height: 48px;
     color: var(--black);
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .footer__wrapper {
     max-width: 640px;
     padding-top: 64px;
+    margin: 0 auto;
 }
 
 .footer__text {
