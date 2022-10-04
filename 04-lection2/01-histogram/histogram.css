@@ -10,11 +10,10 @@
     padding: 16px 24px;
 }
 
-.histogram__total {
-    max-width: 200px;
-    display: inline-block;
+.histogram__block {
+    display: flex;
+    justify-content: space-between;
 }
-
 .histogram__text {
     font-family: 'Inter';
     font-style: normal;
@@ -30,8 +29,8 @@
 }
 
 .histogram__text_link {
-    float: right;
     color: var(--blue-1);
+    text-decoration: none;
 }
 
 .histogram__text_value {
@@ -40,5 +39,5 @@
 }
 
 .histogram__chart {
-    margin-top: 71px;
+    margin-top: 39px;
 }
