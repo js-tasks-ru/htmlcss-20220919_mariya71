@@ -2,12 +2,11 @@
     height: 50px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
     gap: 1px;
 }
 
 .chart__el {
-    flex-basis: 8px;
+    flex-basis: 9px;
     background: var(--blue-1);
     flex-grow: 1;
 }
