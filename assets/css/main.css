@@ -10,6 +10,7 @@
 @import '../../components/template/template.css';
 @import '../../components/nav/nav.css';
 @import '../../components/component/component.css';
+@import '../../04-lection2/02-skeleton/skeleton.css';
 
 :root {
     --white: #ffffff;
