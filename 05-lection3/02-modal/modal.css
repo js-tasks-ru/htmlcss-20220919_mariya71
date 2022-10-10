@@ -13,7 +13,7 @@
 }
 
 .modal__window {
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px;
     padding: 30px 40px;
     position: relative;
