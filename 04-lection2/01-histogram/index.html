@@ -2,10 +2,43 @@
 <!-- Страница с гистограммой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./histogram.css">
+        <link rel="stylesheet" href="./chart.css">
+        <style>
+            .page {
+                /* для наглядности */
+                width: 354px;
+                position: absolute;
+                top: 10%;
+                left: 40%;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="page">
+            <div class="histogram">
+                <div class="histogram__container">
+                    <div class="histogram__block">
+                        <p class="histogram__text histogram__text_title">Total orders</p>
+                        <a class="histogram__text histogram__text_link" href="#">View all</a>
+                    </div>
+                    <h4 class="histogram__text histogram__text_value">50254</h4>
+                    <div class="histogram__chart">
+                        <div class="chart">
+                            <div class="chart__el" style="height: 90%"></div>
+                            <div class="chart__el" style="height: 50%"></div>
+                            <div class="chart__el" style="height: 30%"></div>
+                            <div class="chart__el" style="height: 90%"></div>
+                            <div class="chart__el" style="height: 10%"></div>
+                            <div class="chart__el" style="height: 40%"></div>
+                            <div class="chart__el" style="height: 90%"></div>
+                            <div class="chart__el" style="height: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
