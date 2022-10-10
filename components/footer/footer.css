@@ -46,3 +46,9 @@
     letter-spacing: 0.04em;
     margin: 56px 0;
 }
+
+@media (max-width: 375px)  {
+    .footer {
+        display: none;
+    }
+}

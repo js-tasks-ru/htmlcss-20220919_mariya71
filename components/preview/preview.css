@@ -11,5 +11,13 @@
 }
 
 .preview__item {
+    box-sizing: border-box;
+}
 
+@media (max-width: 375px)  {
+    .preview__wrapper {
+        gap: 16px;
+        padding: 24px 0 48px;
+        justify-content: center;
+    }
 }

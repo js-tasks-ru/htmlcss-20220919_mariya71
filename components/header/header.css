@@ -1,5 +1,5 @@
 .header {
-    padding: 96px 0 77px;
+    padding: 25px 0 77px;
 }
 
 .header__title {
@@ -11,7 +11,31 @@
     color: var(--black);
 }
 
+.header__navigate {
+    margin-bottom: 40px;
+    display: flex;
+}
+
 .header_template {
     height: 82px;
     padding: 0;
+}
+
+@media (max-width: 375px)  {
+    .header {
+        padding: 17px 16px 49px;
+    }
+
+    .header__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
+
+    .header__navigate {
+        margin-bottom: 49px;
+        justify-content: center;
+    }
 }
