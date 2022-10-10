@@ -1,0 +1,22 @@
+.component {
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    padding: 32px 48px;
+    min-height: 676px;
+    box-sizing: border-box;
+}
+
+.component__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+    margin-bottom: 24px;
+}
+
+.component__wrapper {
+    width: 300px;
+}

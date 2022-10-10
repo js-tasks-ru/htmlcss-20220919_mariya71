@@ -6,10 +6,16 @@
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+@import '../../components/menu/menu.css';
+@import '../../components/template/template.css';
+@import '../../components/nav/nav.css';
+@import '../../components/component/component.css';
+@import '../../04-lection2/02-skeleton/skeleton.css';
 
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black-2: #000000;
     --pink: #F784AD;
     --purple-1: #7048E8;
     --purple-2: #5028C6;
@@ -36,6 +42,10 @@
     --secondary: var(--purple-1);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
 }

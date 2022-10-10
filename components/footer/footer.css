@@ -29,3 +29,20 @@
     line-height: 24px;
     text-align: center;
 }
+
+.footer_template {
+    background: var(--grey-5);
+    align-items: center;
+    height: auto;
+}
+
+.footer__text {
+    text-transform: uppercase;
+    color: var(--grey-3);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    margin: 56px 0;
+}

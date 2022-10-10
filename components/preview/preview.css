@@ -1,5 +1,6 @@
 .preview {
     background: var(--background);
+    flex-grow: 1;
 }
 
 .preview__wrapper {

@@ -1,0 +1,14 @@
+.page {
+    height: 100%;
+}
+
+.page_main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page_template {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
