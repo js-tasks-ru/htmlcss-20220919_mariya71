@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
+        <link rel="stylesheet" href="../../components/icon/icon.css">
         <link rel="stylesheet" href="./modal.css">
         <title>Modal</title>
     </head>
@@ -13,7 +14,9 @@
     <div class="modal" id="modal">
         <div class="modal__wrapper">
             <div class="modal__window">
-                <div class="modal__close" id="modal-close"><img src="../../assets/images/x.png"></div>
+                <svg class="modal__close icon" id="modal-close">
+                    <use href="../../assets/images/icon-sprite.svg#cross"></use>
+                </svg>
                 <h4 class="modal__title">Modal title</h4>
                 <p class="modal__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                     Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
