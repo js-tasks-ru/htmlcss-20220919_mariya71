@@ -4,4 +4,59 @@
     border-radius: 12px;
     width: 350px;
     height: 367px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.card__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.card__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--black);
+}
+
+.card__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey-4);
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 164px;
+        height: 210px;
+    }
+
+    .card__body {
+        box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    }
+
+    .card__footer {
+        padding: 12px 0 10px;
+    }
+
+    .card__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card__text {
+        display: none;
+    }
 }
