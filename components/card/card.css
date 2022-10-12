@@ -34,7 +34,7 @@
     color: var(--grey-4);
 }
 
-@media (max-width: 375px)  {
+@media screen and (max-width: 375px) {
     .card {
         width: 164px;
         height: 210px;
