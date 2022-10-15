@@ -8,3 +8,10 @@
     grid-template-columns: auto 1fr;
     padding: 32px 0;
 }
+
+@media screen and (max-width: 375px) {
+    .template__container {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+}
