@@ -13,7 +13,6 @@
 
 .header__navigate {
     margin-bottom: 40px;
-    display: flex;
 }
 
 .header_template {
@@ -21,9 +20,17 @@
     padding: 0;
 }
 
+.header__logo_hidden {
+    display: none;
+}
+
 @media screen and (max-width: 375px) {
     .header {
         padding: 17px 16px 49px;
+    }
+
+    .header__logo_hidden {
+        display: block;
     }
 
     .header__title {
@@ -36,6 +43,14 @@
 
     .header__navigate {
         margin-bottom: 49px;
+    }
+
+    .header_template {
+        display: flex;
+        align-items: center;
         justify-content: center;
+        height: auto;
+        background: var(--grey-5);
+        padding: 16px;
     }
 }
