@@ -14,12 +14,27 @@
                 <img class="header__logo" src="assets/images/logo.svg">
             </div>
             <h1 class="header__title">Reusable component library</h1>
+            <div class="tabs">
+                <div class="tabs__scroller">
+                    <input class="tabs__radio" name="radio" type="radio" id="all-tab" checked>
+                    <label class="tabs__label" for="all-tab">All components</label>
+
+                    <input class="tabs__radio" name="radio" type="radio" id="elements-tab">
+                    <label class="tabs__label" for="elements-tab">Elements</label>
+
+                    <input class="tabs__radio" name="radio" type="radio" id="containers-tab">
+                    <label class="tabs__label" for="containers-tab">Containers</label>
+
+                    <input class="tabs__radio" name="radio" type="radio" id="template-tab">
+                    <label class="tabs__label" for="template-tab">Templates</label>
+                </div>
+            </div>
         </div>
     </header>
     <main class="preview">
         <div class="container">
             <div class="preview__wrapper">
-                <div class="preview__item card">
+                <div class="preview__item card tabs__item_containers">
                     <div class="card__body">
 
                     </div>
@@ -28,7 +43,7 @@
                         <p class="card__text">Container</p>
                     </div>
                 </div>
-                <div class="preview__item card">
+                <div class="preview__item card tabs__item_elements">
                     <div class="card__body">
 
                     </div>
@@ -37,7 +52,7 @@
                         <p class="card__text">Element</p>
                     </div>
                 </div>
-                <div class="preview__item card">
+                <div class="preview__item card tabs__item_containers">
                     <div class="card__body">
 
                     </div>
@@ -46,7 +61,7 @@
                         <p class="card__text">Container</p>
                     </div>
                 </div>
-                <div class="preview__item card">
+                <div class="preview__item card tabs__item_containers">
                     <div class="card__body">
 
                     </div>
