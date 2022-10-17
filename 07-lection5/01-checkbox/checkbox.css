@@ -40,7 +40,7 @@
     background: var(--blue-1);
 }
 
-.checkbox__input:checked ~ .checkbox__state .checkbox__title {
+.checkbox__input:focus ~ .checkbox__state .checkbox__title {
     text-decoration: underline;
 }
 
