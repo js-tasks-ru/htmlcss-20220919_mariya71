@@ -12,6 +12,8 @@
 @import '../../components/component/component.css';
 @import '../../04-lection2/02-skeleton/skeleton.css';
 @import '../../components/tabs/tabs.css';
+@import "/05-lection3/01-tooltip/tooltip.css";
+@import "/05-lection3/03-calendar/calendar.css";
 
 :root {
     --white: #ffffff;

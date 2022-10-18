@@ -11,6 +11,7 @@
 .tabs__scroller {
     display: flex;
     gap: 40px;
+    overflow-x: auto
 }
 
 .tabs__label {
@@ -24,32 +25,35 @@
     cursor: pointer;
 }
 
-.tabs__radio:checked + .tabs__label {
+#tab1:checked ~ .container .tabs__scroller label[for="tab1"],
+#tab2:checked ~ .container .tabs__scroller label[for="tab2"],
+#tab3:checked ~ .container .tabs__scroller label[for="tab3"],
+#tab4:checked ~ .container .tabs__scroller label[for="tab4"] {
     border-bottom: 5px solid var(--black);
 }
 
-.header:has(.tabs__radio:checked) ~ .preview .preview__item {
+.tabs__item {
     display: none;
 }
 
-.header:has(#all-tab:checked) ~ .preview .preview__item {
+#tab1:checked ~ .preview .tabs__item {
     display: grid;
 }
 
-.header:has(#elements-tab:checked) ~ .preview .tabs__item_elements {
+#tab2:checked ~ .preview .tabs__item_2 {
     display: grid;
 }
 
-.header:has(#containers-tab:checked) ~ .preview .tabs__item_containers {
+#tab3:checked ~ .preview .tabs__item_3 {
     display: grid;
 }
 
-.header:has(#template-tab:checked) ~ .preview .tabs__item_template {
+#tab4:checked ~ .preview .tabs__item_4 {
     display: grid;
 }
 
 @media screen and (max-width: 375px) {
-    .tabs {
+    .tabs__scroller {
         display: none;
     }
 }

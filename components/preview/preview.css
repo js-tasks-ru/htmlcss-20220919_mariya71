@@ -12,6 +12,8 @@
 
 .preview__item {
     box-sizing: border-box;
+    text-decoration: none;
+    color: initial;
 }
 
 @media screen and (max-width: 375px) {
