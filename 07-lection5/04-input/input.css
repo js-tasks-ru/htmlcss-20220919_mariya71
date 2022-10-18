@@ -16,7 +16,6 @@
 
 .input__wrapper {
     position: relative;
-    display: inline-block;
 }
 
 .input__wrapper_success:after {
@@ -50,18 +49,16 @@
     line-height: 26px;
     color: var(--grey-4);
     padding: 17px 19px 13px 24px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-input:focus, textarea {
-    outline: none;
-}
-
-.input__field:focus, .input__field_focus {
+.input__field:focus {
     border: 1px solid var(--blue-1);
     box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.input__wrapper_error .input__field {
+.input_error .input__field {
     border: 1px solid var(--red);
     box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
 }
