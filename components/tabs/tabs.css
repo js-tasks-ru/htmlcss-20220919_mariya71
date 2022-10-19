@@ -36,19 +36,19 @@
     display: none;
 }
 
-#tab1:checked ~ .preview .tabs__item {
+#tab1:checked ~ .tabs__preview .tabs__item {
     display: grid;
 }
 
-#tab2:checked ~ .preview .tabs__item_2 {
+#tab2:checked ~ .tabs__preview .tabs__item_2 {
     display: grid;
 }
 
-#tab3:checked ~ .preview .tabs__item_3 {
+#tab3:checked ~ .tabs__preview .tabs__item_3 {
     display: grid;
 }
 
-#tab4:checked ~ .preview .tabs__item_4 {
+#tab4:checked ~ .tabs__preview .tabs__item_4 {
     display: grid;
 }
 
