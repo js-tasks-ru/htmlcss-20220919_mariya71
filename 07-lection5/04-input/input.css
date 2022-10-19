@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.input__wrapper_success:after {
+.input_success .input__wrapper:after {
     content: url(../../assets/images/success.svg);
     width: 20px;
     height: 20px;
@@ -28,7 +28,7 @@
     transform: translateY(-50%);
 }
 
-.input__wrapper_error:after {
+.input_error .input__wrapper:after {
     content: url(../../assets/images/error.svg);
     width: 20px;
     height: 20px;
