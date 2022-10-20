@@ -2,10 +2,48 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <style>
+            .page {
+                /* для наглядности */
+                width: 800px;
+                height: 300px;
+                position: absolute;
+                top: 10%;
+                left: 20%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        </style>
     </head>
     <body>
-
+    <div class="page">
+        <div class="input">
+            <label class="input__label" for="in01">label</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="Placeholder" id="in01">
+            </div>
+        </div>
+        <div class="input">
+            <label class="input__label" for="in05">Disabled</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="Placeholder" id="in05" disabled>
+            </div>
+        </div>
+        <div class="input input_success">
+            <label class="input__label" for="in03">success</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="Placeholder" id="in03" value="Success">
+            </div>
+        </div>
+        <div class="input input_error">
+            <label class="input__label" for="in04">error</label>
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="Placeholder" id="in04" value="Error">
+            </div>
+        </div>
+    </div>
     </body>
 </html>
