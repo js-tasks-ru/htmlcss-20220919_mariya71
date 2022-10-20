@@ -1,0 +1,59 @@
+.tabs {
+    position: relative;
+}
+
+.tabs__radio {
+    position: absolute;
+    outline: none;
+    clip: rect(0,0,0,0);
+}
+
+.tabs__scroller {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto
+}
+
+.tabs__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+#tab1:checked ~ .container .tabs__scroller label[for="tab1"],
+#tab2:checked ~ .container .tabs__scroller label[for="tab2"],
+#tab3:checked ~ .container .tabs__scroller label[for="tab3"],
+#tab4:checked ~ .container .tabs__scroller label[for="tab4"] {
+    border-bottom: 5px solid var(--black);
+}
+
+.tabs__item {
+    display: none;
+}
+
+#tab1:checked ~ .tabs__preview .tabs__item {
+    display: grid;
+}
+
+#tab2:checked ~ .tabs__preview .tabs__item_2 {
+    display: grid;
+}
+
+#tab3:checked ~ .tabs__preview .tabs__item_3 {
+    display: grid;
+}
+
+#tab4:checked ~ .tabs__preview .tabs__item_4 {
+    display: grid;
+}
+
+@media screen and (max-width: 375px) {
+    .tabs__scroller {
+        display: none;
+    }
+}

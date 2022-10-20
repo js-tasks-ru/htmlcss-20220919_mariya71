@@ -8,6 +8,11 @@
     grid-template-rows: 1fr auto;
 }
 
+.card__body {
+    align-self: center;
+    justify-self: center;
+}
+
 .card__footer {
     display: flex;
     flex-direction: column;

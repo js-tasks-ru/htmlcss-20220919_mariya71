@@ -9,10 +9,6 @@
     cursor: pointer;
 }
 
-.tooltip__trigger:hover ~ .tooltip__helper {
-    display: block;
-}
-
 .tooltip__helper {
     padding: 13px 21px 8px;
     background: var(--blue-1);
@@ -31,6 +27,10 @@
     transform: translateX(-50%);
     white-space: nowrap;
     display: none;
+}
+
+.tooltip__trigger:hover ~ .tooltip__helper, .tooltip__trigger_active {
+    display: block;
 }
 
 .tooltip__helper:after {
